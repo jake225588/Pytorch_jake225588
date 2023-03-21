@@ -71,3 +71,6 @@ python detect.py --weights yolov5s.pt --source bus.jpg
 
 sbatch yolo_pytorch_job.sh(might not work beacuse the diffrent env name)
 
+### References
+
+https://github.com/ultralytics/yolov5
