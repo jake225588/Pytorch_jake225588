@@ -9,6 +9,4 @@ Industrial automation
 Image and video analysis
 YOLO PyTorch is an application built using the PyTorch framework. It is neither a programming tool nor a middleware. It is an end-to-end object detection solution that can be easily integrated into other applications and pipelines.
 
-```python
 
-```
