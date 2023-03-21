@@ -59,18 +59,15 @@ For CUDA 11.1
 
 Visit [PyTorch's official website](https://pytorch.org/get-started/locally/) for installation instructions specific to your system.
 
-### Step 5: Download Pre-trained Models
 
-If you plan to use pre-trained models, download them to the appropriate directory:
-
-mkdir weights
-cd weights
-wget https://path_to_pretrained_models/yolov3.weights
-cd ..
-
-
-### Step 6: Run a Test
+### Step 5: Run a Test
 To verify the installation and setup, run a test using the provided sample images:
 
-python detect.py --images data/samples
+python detect.py --weights yolov5s.pt --source bus.jpg
+
+
+### Step 6: Submit a Job to the HPCC
+
+
+sbatch yolo_pytorch_job.sh(might not work beacuse the diffrent env name)
 
